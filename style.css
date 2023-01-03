@@ -12,6 +12,14 @@
   --main-width:70%;
 }
 
+#langs {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 33;
+}
+
 .flex {
   display: flex;
 }
@@ -58,10 +66,22 @@
   font-size: 25px;
 }
 
+@media (max-width: 600px) {
+  .nav {
+    top: auto;
+    bottom: 35px;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    z-index: 100;
+    background: white;
+  }
+}
 .middle {
   position: absolute;
   margin-top: 120vh;
   margin-left: 10%;
   width: var(--main-width);
+  padding-bottom: 100px;
   font-family: "Rubik Bubbles";
 }/*# sourceMappingURL=style.css.map */
