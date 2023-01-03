@@ -1,0 +1,1 @@
+let lo={lorem:'lorem',ipsum:'Ipsum'}
